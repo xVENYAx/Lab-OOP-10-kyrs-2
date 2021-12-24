@@ -8,14 +8,12 @@ namespace Lab_OOP_10_kyrs_2
 {
     class Trail : Pass_point
     {
-        private int id;
         private int point = 80;
         private string name;
         private double number;
 
         public Trail()
         {
-            id = 0;
             name = "Вид";
             number = 0;
         }
